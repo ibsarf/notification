@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Space+Grotesk&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.notifContainer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.notif{
+    background-color: peru;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    border-radius: 20px;
+    color: #fff;
+    font-size: .8rem;
+}
+.notif.red{
+    background-color: red;
+}
+.notif.blue{
+    background-color: blue;
+}
+.notif.gray{
+    background-color: gray;
+}
+.notif.yellow{
+    background-color: yellow;
+}
+.notif.black{
+    background-color: black;
+}
+.notif.orangered{
+    background-color: orangered;
+}
+
+.btn{
+    font-size: 0.8rem;
+    border-radius:20px ;
+    padding: .8rem 1.5rem;
+    font-weight: bold;
+    font-family: inherit;
+    background-color: brown;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    transform: scale(.97);
+}
